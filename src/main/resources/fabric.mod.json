@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fire_charge_util",
+  "version": "${version}",
+  "name": "FireChargeUtil",
+  "description": "Allows you to shoot fire charge.",
+  "authors": [
+    "C191239"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/FireChargeUtil/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.c191239.firechargeutil.client.FireChargeUtilClient"
+    ],
+    "main": [
+      "org.c191239.firechargeutil.FireChargeUtil"
+    ]
+  },
+  "mixins": [
+    "FireChargeUtil.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
