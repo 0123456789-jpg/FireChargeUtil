@@ -4,6 +4,7 @@
   "package": "org.c191239.firechargeutil.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "FireChargeMixin"
   ],
   "client": [
   ],
